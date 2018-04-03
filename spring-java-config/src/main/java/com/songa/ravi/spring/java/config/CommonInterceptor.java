@@ -17,6 +17,7 @@ public class CommonInterceptor implements HandlerInterceptor {
 		
 		TransactionMarking.markStartTime(request);		
 		HeaderValidation.validateRequestHeaders(request);
+//		HeaderValidation.initializeHeaders(request);
 	
 		return true;
 	}

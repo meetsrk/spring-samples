@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.songa.ravi.spring.examples</groupId>
 		<artifactId>spring-examples-parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 	<artifactId>spring-webxml</artifactId>
 	<packaging>war</packaging>

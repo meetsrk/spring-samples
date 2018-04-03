@@ -19,7 +19,6 @@
 		<logback.version>1.2.3</logback.version>
 		<jcl.slf4j.version>1.7.25</jcl.slf4j.version>
 		<hikari.version>2.5.1</hikari.version>
-		<maridb.version>1.5.9</maridb.version>
 	</properties>
 
 	<dependencies>
@@ -51,14 +50,13 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
-			<version>${spring.version}</version>
+			<version>4.3.9.RELEASE</version>
 		</dependency>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>${javax.servlet.version}</version>
-
 		</dependency>
 
 		<dependency>
@@ -89,20 +87,6 @@
 			<artifactId>HikariCP</artifactId>
 			<version>${hikari.version}</version>
 			<scope>compile</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
-		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>${maridb.version}</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>6.0.6</version>
 		</dependency>
 	</dependencies>
 

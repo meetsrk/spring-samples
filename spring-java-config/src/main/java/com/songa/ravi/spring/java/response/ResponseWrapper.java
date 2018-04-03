@@ -2,36 +2,35 @@ package com.songa.ravi.spring.java.response;
 
 public class ResponseWrapper {
 	
-	private boolean ok;
+	private Boolean ok;
 	
-	private String error;
+	private Object error;
 	
-	private String payload;
+	private Object payload;
 
-	public boolean isOk() {
+	public Boolean isOk() {
 		return ok;
 	}
 
-	public void setOk(boolean ok) {
+	public void setOk(Boolean ok) {
 		this.ok = ok;
 	}
 
-	public String getError() {
+	public Object getError() {
 		return error;
 	}
 
-	public void setError(String error) {
+	public void setError(Object error) {
 		this.error = error;
 	}
 
-	public String getPayload() {
+	public Object getPayload() {
 		return payload;
 	}
 
-	public void setPayload(String payload) {
+	public void setPayload(Object payload) {
 		this.payload = payload;
 	}
-	
-	
+
 
 }

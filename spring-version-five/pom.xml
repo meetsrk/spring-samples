@@ -6,16 +6,16 @@
 		<artifactId>spring-examples-parent</artifactId>
 		<version>0.0.2-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-java-config</artifactId>
+	<artifactId>spring-version-five</artifactId>
 	<packaging>war</packaging>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<spring.version>4.3.9.RELEASE</spring.version>
+		<spring.version>5.0.4.RELEASE</spring.version>
 		<javax.servlet.version>3.1.0</javax.servlet.version>
-		<jackson.databind.version>2.8.1</jackson.databind.version>
+		<jackson.databind.version>2.9.4</jackson.databind.version>
 		<logback.version>1.2.3</logback.version>
 		<jcl.slf4j.version>1.7.25</jcl.slf4j.version>
 		<hikari.version>2.5.1</hikari.version>
@@ -69,41 +69,15 @@
 
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
+			<artifactId>jackson-annotations</artifactId>
 			<version>${jackson.databind.version}</version>
 		</dependency>
 
 		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>${logback.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
-			<version>${jcl.slf4j.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.zaxxer</groupId>
-			<artifactId>HikariCP</artifactId>
-			<version>${hikari.version}</version>
-			<scope>compile</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
-		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>${maridb.version}</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
-		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>6.0.6</version>
-		</dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<version>${jackson.databind.version}</version>
+		</dependency> 
 	</dependencies>
 
 	<build>

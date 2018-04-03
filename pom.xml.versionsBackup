@@ -2,12 +2,11 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.songa.ravi.spring.examples</groupId>
   <artifactId>spring-examples-parent</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
   	<module>spring-webxml</module>
   	<module>spring-java-webxml</module>
   	<module>spring-java-config</module>
-  	<module>spring-version-five</module>
   </modules>
 </project>
